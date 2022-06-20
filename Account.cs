@@ -15,7 +15,7 @@
         public void Calculate(ICalculator calculator)
         {
             calculator.CalculateInterest(this);
-            Console.WriteLine($"Процентная ставка по вашему {this.Type} вкладу составляет {this.Interest} р/мес.");
+            Console.WriteLine($"Процентная ставка по вашему вкладу {this.Type} составляет {this.Interest} р/мес.");
         }
     }
 }
